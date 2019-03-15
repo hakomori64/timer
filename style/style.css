@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 30vh;
+    width: 100vw;
+    background: skyblue;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+main {
+    height: 70vh;
+    background: #eeeeee;
+    padding: 10px;
+}
+
+#timer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+#add {
+    float: right;
+}
+
+#add-button-container {
+    clear: right;
+}
