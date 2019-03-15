@@ -16,14 +16,12 @@ class Timer {
         this.timer.style.height = "200px";
         this.timer.style.padding = "5px";
         this.timer.style.borderRadius = "5px";
-        this.timer.style.background = "#312a2a";
+        this.timer.style.background = "skyblue";
         this.timer.style.textAlign = "center";
         this.timer.style.display = "grid";
         this.timer.style.gridTemplateRows = "3fr 4fr 2fr"
         this.timer.style.gridTemplateColumns = "repeat(3, 1fr)"
         this.timer.style.gridTemplateAreas = '"title title title" "display display display" "start stop reset"';
-        //timer.style.justifyItems = "center";
-        //timer.style.alignItems = "center";
 
         this.title = document.createElement("input");
         this.title.setAttribute("type", "text");

@@ -7,7 +7,7 @@
 header {
     height: 30vh;
     width: 100vw;
-    background: skyblue;
+    background: #0088ee;
     display: table-cell;
     vertical-align: middle;
 }
@@ -20,20 +20,31 @@ h1 {
 
 main {
     height: 70vh;
-    background: #eeeeee;
+    background: #f8f8f8;
     padding: 10px;
 }
 
 #timer-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     grid-gap: 10px;
+    margin: 10px;
 }
 
 #add {
-    float: right;
+    display: block;
+    width: 300px;
+    height: 60px;
+    margin: 0 0 0 auto;
+    background-color: #0088bb;
+    color: white;
+    font-size: 40px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
 }
 
-#add-button-container {
-    clear: right;
+#add:hover {
+    border: none;
+    background: #0088ee
 }
